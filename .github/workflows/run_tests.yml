@@ -24,7 +24,6 @@ jobs:
     - name: Setting up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v2
       with:
-        shell: powershell
         python-version: ${{ matrix.python-version }}
         
     - name: Install dependencies
